@@ -4,3 +4,5 @@ Starting Android Basics Nanodegree 2018.12.20
 
 ## Ch.2 UserInterface
 Introduction (Making single screen app)
+
++ TextView can be surrounded with Layout
