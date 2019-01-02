@@ -1,13 +1,6 @@
 # Anroid-Basics-Nanodegree
 by Google
 Starting Android Basics Nanodegree 2018.12.20
-<<<<<<< HEAD
-=======
 
-## Ch.1 Welcome to the Nanodegree
-
-In this part, it's about primary info before starting Nanodegree.
-+ To graduate I need to pass all project.
-+ We can get helps from peers and Mentors.
-
->>>>>>> Welcome-to-the-Nanodegree
+## Ch.2 UserInterface
+Introduction (Making single screen app)
