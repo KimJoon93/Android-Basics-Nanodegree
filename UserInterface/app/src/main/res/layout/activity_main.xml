@@ -6,11 +6,14 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:textSize="45sp"
         android:background="@android:color/darker_gray"
         android:text="Happy Birthday!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <!--Using wrap-content  -->
+    <!--Change the text size with sp -->
+
 
     <TextView
         android:text="By Joon"
