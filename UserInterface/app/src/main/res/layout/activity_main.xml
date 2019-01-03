@@ -7,13 +7,13 @@
 
     <TextView
         android:textSize="45sp"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_blue_bright"
         android:text="Happy Birthday!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <!--Using wrap-content  -->
     <!--Change the text size with sp -->
-
+    <!--Change the background color -->
 
     <TextView
         android:text="By Joon"
