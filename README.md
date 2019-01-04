@@ -10,3 +10,4 @@ Introduction (Making single screen app)
 + Make touch targets 48dp at least.
 + Use 'sp' rather than 'dp' when resizing the text. 
 + Use src to show ImageView.
++ Try to use documentation 
