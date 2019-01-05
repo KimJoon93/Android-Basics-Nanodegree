@@ -1,34 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <!--Practice weight -->
-
-    <ImageView
-        android:src="@drawable/ocean"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_weight="1"
-        android:scaleType="centerCrop" />
+    android:padding="16dp">
 
     <TextView
-        android:text="You're invited!"
-        android:layout_width="match_parent"
+        android:text="I’m in this corner"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/white"
-        android:textSize="54sp"
-        android:background="#009688" />
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
 
     <TextView
-        android:text="Bonfire at the beach"
-        android:layout_width="match_parent"
+        android:text="No, up here"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/white"
-        android:textSize="34sp"
-        android:background="#009688" />
-</LinearLayout>
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
 
+    <TextView
+        android:text="Wait, I’m here"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:text="Actually, I’m here"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
