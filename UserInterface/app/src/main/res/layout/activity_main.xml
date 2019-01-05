@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <!--Change the orientation to horizontal -->
 
-    <TextView
-        android:textSize="45sp"
-        android:background="@android:color/holo_blue_bright"
-        android:text="Happy Birthday!"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <!--Using wrap-content  -->
-    <!--Change the text size with sp -->
-    <!--Change the background color -->
-
-    <TextView
-        android:text="By Joon"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <!-- Having 2 children inside LinearLayout -->
+    <!--Practice weight -->
 
     <ImageView
-        android:src="@drawable/ic_launcher_foreground"
-        android:scaleType="center"
+        android:src="@drawable/ocean"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <!--Simple imageView -->
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:text="You're invited!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="54sp"
+        android:background="#009688" />
+
+    <TextView
+        android:text="Bonfire at the beach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:background="#009688" />
 </LinearLayout>
 
