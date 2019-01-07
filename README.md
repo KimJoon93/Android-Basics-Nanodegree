@@ -15,3 +15,7 @@ Starting Android Basics Nanodegree 2018.12.20
 ### Build Birthday card App
 
 + Comapny Domain is for identifying my app unique.
+
+### Build a Single Screen App
+
++ I made Single Screen App with my favorite shoes.
