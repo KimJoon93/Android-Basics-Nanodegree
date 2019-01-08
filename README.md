@@ -1,5 +1,5 @@
 # Anroid-Basics-Nanodegree
-by Google \
+by Google
 Starting Android Basics Nanodegree 2018.12.20
 
 ## Ch.2 UserInterface
@@ -11,7 +11,7 @@ Starting Android Basics Nanodegree 2018.12.20
 + Use 'sp' rather than 'dp' when resizing the text. 
 + Use src to show ImageView rather than using background.(My most mistakes came out from here.)
 + Try to search documentation when something is wrong.
-+ Try to use Strings.xml.
++ View is most basic things. TextView extends from View. Button extends from TextView.
 
 ### Build Birthday card App
 
@@ -21,8 +21,3 @@ Starting Android Basics Nanodegree 2018.12.20
 ### Build a Single Screen App
 
 + I made Single Screen App with my favorite shoes.
-+ Feed back from Udacity
-  1. Prefer using dimens.xml for hardcoded dp, sp values.
-  2. Prefer using strings.xml for hardcoded values.
-  3. Prefer using contentDescription attribute for imageViews.
-  4. Prefer using dimens.xml for hardcoded dp, sp values. Do this for all your views.
