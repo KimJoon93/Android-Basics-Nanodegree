@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Balenciaga</string>
+    <string name="Tripleblacktrackshoes">Track Trainer     ₩ 1,050,000\n\n
+Black mesh and nylon track trainers\n\nInclude tariffs and taxes</string>
+    <string name="SpeedRunner">Speed Trainer     ₩ 950,000\n\nTextured white and black sole\n\nInclude tariffs and taxes</string>
+
+    <string name="safepay">Safe Pay</string>
+    <string name="ReliableDelivery">Reliable Delivery</string>
+    <string name="Quickeasyreturn">Quick, easy return</string>
 </resources>

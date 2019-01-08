@@ -31,7 +31,7 @@
         android:textStyle="italic"
         android:gravity="center"
         android:layout_gravity="center"
-        android:text="Speed Trainer     ₩ 950,000\n\nTextured white and black sole\n\nInclude tariffs and taxes"
+        android:text="@string/SpeedRunner"
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="wrap_content" />
@@ -56,8 +56,7 @@
             android:textStyle="italic"
             android:gravity="center"
             android:layout_gravity="center"
-            android:text="Track Trainer     ₩ 1,050,000\n\n
-Black mesh and nylon track trainers\n\nInclude tariffs and taxes"
+            android:text="@string/Tripleblacktrackshoes"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content" />
@@ -83,7 +82,7 @@ Black mesh and nylon track trainers\n\nInclude tariffs and taxes"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
             android:layout_gravity="center"
-            android:text="Safe Pay"
+            android:text="@string/safepay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         </LinearLayout>
@@ -102,7 +101,7 @@ Black mesh and nylon track trainers\n\nInclude tariffs and taxes"
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"
                 android:layout_gravity="center"
-                android:text="Reliable Delivery"
+                android:text="@string/ReliableDelivery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -121,7 +120,7 @@ Black mesh and nylon track trainers\n\nInclude tariffs and taxes"
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"
                 android:layout_gravity="center"
-                android:text="Quick, easy return"
+                android:text="@string/Quickeasyreturn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
