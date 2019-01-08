@@ -6,7 +6,7 @@ by Google
 
 [2. User Inerface](https://github.com/KimJoon93/Anroid-Basics-Nanodegree/tree/2.User-Interface)
 
-[3. User Input](https://github.com/KimJoon93/Anroid-Basics-Nanodegree)
+[3. User Input](https://github.com/KimJoon93/Anroid-Basics-Nanodegree/tree/3.User-Input)
 
 [4. Multi-Screen Apps](https://github.com/KimJoon93/Anroid-Basics-Nanodegree)
 
