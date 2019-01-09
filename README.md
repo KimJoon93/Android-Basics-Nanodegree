@@ -5,3 +5,4 @@ by Google
 ## Ch.3 User Input
 ### Making an App Interactive: Part 1
 + Create Coffee machine
++ Try using method that calls when button is clicked. 
