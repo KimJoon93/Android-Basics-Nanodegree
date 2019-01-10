@@ -54,5 +54,11 @@ public class MainActivity extends AppCompatActivity {
         quantityTextView.setText("" + number);
     }
 
+    public void increment(View view){
 
+    }
+
+    public void decrement(View view){
+
+    }
 }
