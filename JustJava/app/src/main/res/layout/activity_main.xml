@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:onClick="increment"
         android:id="@+id/increment"
         android:text="+"
         android:layout_width="48dp"
@@ -25,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:onClick="decrement"
         android:id="@+id/decrement"
         android:layout_marginBottom="16dp"
         android:text="-"
