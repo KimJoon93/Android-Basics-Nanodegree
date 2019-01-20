@@ -13,22 +13,26 @@
     android:layout_height="wrap_content"
     android:padding="4dp"/>
 <TextView
+    android:id="@+id/team_a_score"
     android:gravity="center_horizontal"
     android:text="0"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="4dp"/>
 <Button
+    android:onClick="addThreeForTeamA"
     android:text="+3 Points"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"/>
 <Button
+    android:onClick="addTwoForTeamA"
         android:text="+2 Points"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"/>
 <Button
+    android:onClick="addFreeThrowForTeamA"
         android:text="Free Throw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
