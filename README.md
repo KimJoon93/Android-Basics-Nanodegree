@@ -1,4 +1,4 @@
-# Anroid-Basics-Nanodegree
+# Android Basics Nanodegree
 by Google
 ## 2018.12.20 ~ 2019.03.20
 
