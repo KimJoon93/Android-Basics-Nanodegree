@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_weight="1"
         android:orientation="vertical"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content">
 
         <TextView
@@ -50,7 +50,7 @@
     <LinearLayout
         android:layout_weight="1"
         android:orientation="vertical"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content">
         <TextView
             android:gravity="center_horizontal"
@@ -66,19 +66,19 @@
             android:layout_height="wrap_content"
             android:padding="4dp"/>
         <Button
-            android:onClick="addThreeForTeamA"
+            android:onClick="addThreeForTeamB"
             android:text="+3 Points"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"/>
         <Button
-            android:onClick="addTwoForTeamA"
+            android:onClick="addTwoForTeamB"
             android:text="+2 Points"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"/>
         <Button
-            android:onClick="addFreeThrowForTeamA"
+            android:onClick="addFreeThrowForTeamB"
             android:text="Free Throw"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
