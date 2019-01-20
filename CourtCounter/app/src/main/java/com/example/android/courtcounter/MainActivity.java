@@ -8,6 +8,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     int scoreTeamA = 0;
     int scoreTeamB = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,10 +50,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void addTwoForTeamB(View view){
         scoreTeamB = scoreTeamB+2;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
     }
     public void addFreeThrowForTeamB(View view){
         scoreTeamB = scoreTeamB+1;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
     }
 }
