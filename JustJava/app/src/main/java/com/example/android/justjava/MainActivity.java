@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void submitOrder(View view) {
         int price = calculatePrice(quantity,10);
-        String priceMessage = "Total: $" +price+ "\nThank you";
+        String priceMessage = createOrderSummary(price);
         displayMessage(priceMessage);
     }
 
@@ -58,5 +58,13 @@ public class MainActivity extends AppCompatActivity {
     private int calculatePrice(int quantity, int pricePerCup){
         int price = quantity * pricePerCup;
         return price;
+    }
+
+    private String createOrderSummary(int price){
+        String pricemessage = "Name: Kaptain Kernel";
+        pricemessage = pricemessage + "\nQuantity: " + quantity;
+        pricemessage = pricemessage + "\nTotal: $" + price;
+        pricemessage = pricemessage + "\nThank you!";
+        return  pricemessage;
     }
 }
