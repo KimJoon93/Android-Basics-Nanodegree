@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
     /**
      * This method is called when the order button is clicked.
      */
@@ -41,6 +40,14 @@ public class MainActivity extends AppCompatActivity {
         quantityTextView.setText("" + number);
     }
 
+    private void displayMessage(String message) {
+        TextView orderSummaryTextView = (TextView) findViewById(R.id.order_summary_text_view);
+        orderSummaryTextView.setText(message);
+    }
+
+    /**
+     * It needs to be public so they could us in xml
+     * */
     public void increment(View view) {
         quantity = quantity + 1;
         display(quantity);
@@ -49,10 +56,6 @@ public class MainActivity extends AppCompatActivity {
     public void decrement(View view) {
         quantity = quantity - 1;
         display(quantity);
-    }
-    private void displayMessage(String message) {
-        TextView orderSummaryTextView = (TextView) findViewById(R.id.order_summary_text_view);
-        orderSummaryTextView.setText(message);
     }
 
     private int calculatePrice(int quantity, int pricePerCup){
