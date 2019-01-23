@@ -23,7 +23,8 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:layout_marginLeft="16dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="24dp"
             android:text="Whipped cream"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
