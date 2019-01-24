@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="toppings">토핑</string>
+    <string name="thankyou">고마워용!</string>
+</resources>
