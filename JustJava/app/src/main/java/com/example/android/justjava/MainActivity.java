@@ -40,9 +40,6 @@ public class MainActivity extends AppCompatActivity {
         int price = calculatePrice(quantity,hasWhippedCream,hasChocolate);
         String priceMessage = createOrderSummary(price, hasWhippedCream,hasChocolate, nameEdit);
         displayMessage(priceMessage);
-        if(quantity<100){
-
-        }
     }
 
     /**
