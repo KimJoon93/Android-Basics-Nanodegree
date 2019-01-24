@@ -13,12 +13,14 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import java.text.NumberFormat;
 /**
  * This app displays an order form to order coffee.
  */
 public class MainActivity extends AppCompatActivity {
-    int quantity = 0;
+    int quantity = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
         int price = calculatePrice(quantity,hasWhippedCream,hasChocolate);
         String priceMessage = createOrderSummary(price, hasWhippedCream,hasChocolate, nameEdit);
         displayMessage(priceMessage);
+        if(quantity<100){
+
+        }
     }
 
     /**
@@ -57,11 +62,19 @@ public class MainActivity extends AppCompatActivity {
      * It needs to be public so they could us in xml
      * */
     public void increment(View view) {
+        if(quantity==100){
+            Toast.makeText(this, "You can't have more than 100 coffee", Toast.LENGTH_SHORT).show();
+            return;
+        }
         quantity = quantity + 1;
         display(quantity);
     }
 
     public void decrement(View view) {
+        if(quantity == 1){
+            Toast.makeText(this, "You can't have less than 1 coffee", Toast.LENGTH_SHORT).show();
+            return;
+        }
         quantity = quantity - 1;
         display(quantity);
     }
@@ -76,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
         }
         int price = quantity * baseprice;
         return price;
+
     }
 
     private String createOrderSummary(int price, boolean hasWhippedCream, boolean hasChocolate, String editName){
