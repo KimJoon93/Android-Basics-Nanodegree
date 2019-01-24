@@ -6,6 +6,8 @@
  * in the project's AndroidManifest.xml file.
  **/
 package com.example.android.justjava;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -15,6 +17,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.net.URI;
 import java.text.NumberFormat;
 /**
  * This app displays an order form to order coffee.
@@ -39,7 +42,14 @@ public class MainActivity extends AppCompatActivity {
         boolean hasChocolate = chocolateCheckBox.isChecked();
         int price = calculatePrice(quantity,hasWhippedCream,hasChocolate);
         String priceMessage = createOrderSummary(price, hasWhippedCream,hasChocolate, nameEdit);
-        displayMessage(priceMessage);
+
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mail to: "));
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Just Java order for "+ nameEdit);
+        intent.putExtra(Intent.EXTRA_TEXT, priceMessage);
+        if(intent.resolveActivity(getPackageManager()) != null){
+            startActivity(intent);
+        }
     }
 
     /**
