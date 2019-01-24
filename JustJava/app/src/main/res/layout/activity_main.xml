@@ -19,11 +19,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
-            android:textAllCaps="true"
+            style="@style/HeadertextStyle"
             android:text="@string/toppings"
-            android:layout_marginBottom="16dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_marginBottom="16dp" />
 
         <CheckBox
             android:id="@+id/whipped_cream_checkbox"
@@ -41,12 +39,10 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:textAllCaps="true"
+            style="@style/HeadertextStyle"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
-            android:text="Quantity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:text="Quantity" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -78,11 +74,9 @@
         </LinearLayout>
 
         <TextView
+            style="@style/HeadertextStyle"
             android:layout_marginBottom="16dp"
-            android:textAllCaps="true"
-            android:text="Order Summary"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:text="Order Summary" />
 
         <TextView
             android:id="@+id/order_summary_text_view"
