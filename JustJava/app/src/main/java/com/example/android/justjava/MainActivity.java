@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         String priceMessage = createOrderSummary(price, hasWhippedCream,hasChocolate, nameEdit);
 
         Intent intent = new Intent(Intent.ACTION_SENDTO);
-        intent.setData(Uri.parse("mail to: "));
+        intent.setData(Uri.parse("mailto: "));
         intent.putExtra(Intent.EXTRA_SUBJECT, "Just Java order for "+ nameEdit);
         intent.putExtra(Intent.EXTRA_TEXT, priceMessage);
         if(intent.resolveActivity(getPackageManager()) != null){
