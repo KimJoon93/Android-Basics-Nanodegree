@@ -21,9 +21,16 @@
 
         <CheckBox
             android:id="@+id/whipped_cream_checkbox"
-            android:paddingLeft="16dp"
+            android:paddingLeft="24dp"
             android:textSize="16sp"
             android:text="Whipped cream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/chocolate_checkbox"
+            android:textSize="16sp"
+            android:text="Chocolate"
+            android:paddingLeft="24dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
