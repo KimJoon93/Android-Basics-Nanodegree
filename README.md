@@ -11,5 +11,3 @@ by Google
 [4. Multi-Screen Apps](https://github.com/KimJoon93/Anroid-Basics-Nanodegree)
 
 [5. Networking](https://github.com/KimJoon93/Anroid-Basics-Nanodegree)
-
-[6. End](https://github.com/KimJoon93/Anroid-Basics-Nanodegree/blob/Welcome-to-the-Nanodegree/README.md)
