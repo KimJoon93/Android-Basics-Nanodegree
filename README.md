@@ -17,12 +17,12 @@ For example We want information num=5 then we should use integer or etc. So we p
 ### Object-Oriented Programming: Part 2
 ### Practice Set: Object-Oriented Programming
 ### Project: Quiz App
-    + Color Quiz App
++ Color Quiz App\
     I made color quiz app solving which one is correct color name.
     I made 5 question that gives 20 points and if we click score btn it checks the question is right or wrong.
     And I give toast message what point we get. 
 
-    + Review from Udacity
++ Review from Udacity\
     I got a review from Udacity that app has 3 things to change. But I think problem occurs because of using less views.
     So I add checkbox for checking "Did you solve by yourself". And I add name EditText so when we click the score button,
     Toast message show us the name and the score. And it works! 
