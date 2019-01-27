@@ -3,6 +3,8 @@ package com.example.android.quiz;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
@@ -10,6 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     int score = 0;
+    String username;
 
     LinearLayout scorelayout;
 
@@ -18,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
     RadioButton thryellowradio;
     RadioButton fouwhiteradio;
     RadioButton fivorangeradio;
+
+    CheckBox selfcheck;
+
+    EditText nameEdit;
 
     TextView q_one;
     TextView q_two;
@@ -42,10 +49,19 @@ public class MainActivity extends AppCompatActivity {
         q_four = (TextView) findViewById(R.id.four);
         q_five = (TextView) findViewById(R.id.five);
 
+        nameEdit = (EditText) findViewById(R.id.name_edittext);
+
+        selfcheck = (CheckBox) findViewById(R.id.selfsolve_checkbox);
+
         scorelayout = (LinearLayout) findViewById(R.id.scorelayout);
+
     }
 
     public void ScoreClick(View view){
+        if(!selfcheck.isChecked()){
+            Toast.makeText(this, "Please solve problems by your self!",Toast.LENGTH_LONG).show();
+            return;
+        }
 
         if(oneblueradio.isChecked()){
             score = score + 20;
@@ -72,8 +88,8 @@ public class MainActivity extends AppCompatActivity {
             q_five.setText("O");
             q_five.setTextColor(getResources().getColor(R.color.Green));
         }
-
-        Toast.makeText(this, "You got "+ score+ "Points!",Toast.LENGTH_LONG).show();
+        username = nameEdit.getText().toString();
+        Toast.makeText(this, username +"! you got "+ score+ "Points!",Toast.LENGTH_LONG).show();
         scorelayout.setVisibility(View.VISIBLE);
         score = 0;
     }

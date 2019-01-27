@@ -10,6 +10,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
+                    <EditText
+                        android:layout_marginBottom="16dp"
+                        android:id="@+id/name_edittext"
+                        android:hint="Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
                     <TextView
                         android:textSize="16sp"
                         android:layout_marginBottom="16dp"
@@ -215,7 +222,17 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
                 </RadioGroup>
+
+                <CheckBox
+                    android:id="@+id/selfsolve_checkbox"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/LastQ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
                 <Button
+                    android:id="@+id/scoreclick_btn"
                     android:layout_marginTop="16dp"
                     android:onClick="ScoreClick"
                     android:text="Score"
@@ -274,7 +291,7 @@
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
-
                 </LinearLayout>
+
             </LinearLayout>
 </ScrollView>
