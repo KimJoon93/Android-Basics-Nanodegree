@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Color Quiz</string>
+
+    <string name="Question1">1. Which one is Blue? (20 Points)</string>
+    <string name="Question2">2. Which one is Green? (20 Points)</string>
+    <string name="Question3">3. Which one is Yellow? (20 Points)</string>
+    <string name="Question4">4. Which one is White? (20 Points)</string>
+    <string name="Question5">5. Which one is Orange? (20 Points)</string>
+
+    <string name="LastQ">Did you solve these question alone?</string>
+
+</resources>
