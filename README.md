@@ -6,10 +6,10 @@ by Google
 ### Intents and Activities
 
 + Implicit Intent / Explicit Inent
-    1. Implicit Intent
+    1. Implicit Intent\
         <code>Intent intent = new Intent(Intent.ACTION_SENDTO);</code>
-    2. Explicit Intent
-
+    2. Explicit Intent\
+        <code>Intent intent = new Intent(this, classname.class);</code>
 + Difference between class and Interface?
     1. Class(Fully implemented)
         - contains state
