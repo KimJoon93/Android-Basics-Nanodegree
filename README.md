@@ -23,6 +23,8 @@ by Google
     3. Interface(Not implemented at all)
         - No state
         - All methods are abstract(Not implemented)
+        - Interface defines what a class should do but not how to do it.
+        - Think about Java class couldn't  get multiple inheritance.
 
 
 ### Java Break: Interfaces
