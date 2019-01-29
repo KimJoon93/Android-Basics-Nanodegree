@@ -5,6 +5,11 @@ by Google
 ## Ch.4 Multi-Screen Apps
 ### Intents and Activities
 
++ Implicit Intent / Explicit Inent
+    1. Implicit Intent
+        <code>Intent intent = new Intent(Intent.ACTION_SENDTO);</code>
+    2. Explicit Intent
+
 + Difference between class and Interface?
     1. Class(Fully implemented)
         - contains state
