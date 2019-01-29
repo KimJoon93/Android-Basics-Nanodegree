@@ -6,13 +6,20 @@ by Google
 ### Intents and Activities
 
 + Difference between class and Interface?
-    1. Class
+    1. Class(Fully implemented)
         - contains state
         - Methods are fully implemented
-    2. Interface
+    
+    2. Abstract Class(Partially implemented)
+        - Contains state
+        - Some methods are fully implemented
+        - Some methods are abstract
+    
+    3. Interface(Not implemented at all)
         - No state
         - All methods are abstract(Not implemented)
-        
+
+
 ### Java Break: Interfaces
 ### Arrays,Lists, Loops, & Custom Classes
 ### Java Break: Loops
