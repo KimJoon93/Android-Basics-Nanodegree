@@ -4,6 +4,15 @@ by Google
 
 ## Ch.4 Multi-Screen Apps
 ### Intents and Activities
+
++ Difference between class and Interface?
+    1. Class
+        - contains state
+        - Methods are fully implemented
+    2. Interface
+        - No state
+        - All methods are abstract(Not implemented)
+        
 ### Java Break: Interfaces
 ### Arrays,Lists, Loops, & Custom Classes
 ### Java Break: Loops
