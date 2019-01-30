@@ -44,11 +44,13 @@ by Google
     - Initialize elements in an array\
     <code>shoesize[0] = 5;</code>\
     <code>shoesize[1] = 7;</code>\
-    <code>shoesize[2] = 11;</code>\
+    <code>shoesize[2] = 11;</code>
     - Access elements in an array\
     <code>shoesize[0]</code> --> value of 5;\
     <code>shoesize[1]</code> --> value of 7;\
-    <code>shoesize[2]</code> --> value of 11;\
+    <code>shoesize[2]</code> --> value of 11;
+    - Get the array length\
+    <code>showsize.length</code>--> value of 3;
 
 
 ### Java Break: Loops
