@@ -90,7 +90,7 @@ by Google
     Each one has another functions that fits to the program. If we want fixed size such as Weekday,(Monday, tuesday, ...) we can use array.
     But if we want fluid situation we could use ArrayList.
 
-    LLL | Array | ArrayList
+    Question | Array | ArrayList
     --------- | --------- | ---------
     Can change size once created? | No | Yes
     Is a class? | No | Yes
