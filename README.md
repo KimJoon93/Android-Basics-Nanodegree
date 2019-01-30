@@ -42,7 +42,10 @@ by Google
     - Create Array\
     <code>int[] shoesize = new int[3];</code>
     - Initialize elements in array\
-    <code>shoesize[0] = 5;\shoesize[0] = 7;</code>
+    <code>shoesize[0] = 5;</code>
+    <code>shoesize[1] = 7;</code>
+    <code>shoesize[2] = 11;</code>
+
 
 ### Java Break: Loops
 ### Quick Guide to Gradle
