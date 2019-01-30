@@ -37,7 +37,13 @@ by Google
     - Shopping app (whether a product is in stock) : boolean
     - Lottery app (winning combination of 5 numbers for a single round in the lottery) : array of integer
     - Health track app (miles or km walked for each day) : array of float
-    
+
++ How to use array
+    - Create Array\
+    <code>int[] shoesize = new int[3];</code>
+    - Initialize elements in array\
+    <code>shoesize[0] = 5;\nshoesize[0] = 7;</code>
+
 ### Java Break: Loops
 ### Quick Guide to Gradle
 ### Project: Musical Structure App
