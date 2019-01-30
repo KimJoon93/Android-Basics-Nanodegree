@@ -41,10 +41,14 @@ by Google
 + How to use array
     - Create Array\
     <code>int[] shoesize = new int[3];</code>
-    - Initialize elements in array\
-    <code>shoesize[0] = 5;</code>
-    <code>shoesize[1] = 7;</code>
-    <code>shoesize[2] = 11;</code>
+    - Initialize elements in an array\
+    <code>shoesize[0] = 5;</code>\
+    <code>shoesize[1] = 7;</code>\
+    <code>shoesize[2] = 11;</code>\
+    - Access elements in an array\
+    <code>shoesize[0]</code> --> value of 5;\
+    <code>shoesize[1]</code> --> value of 7;\
+    <code>shoesize[2]</code> --> value of 11;\
 
 
 ### Java Break: Loops
