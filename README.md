@@ -8,6 +8,6 @@ by Google
 
 [3. User Input](https://github.com/KimJoon93/Anroid-Basics-Nanodegree/tree/3.User-Input)
 
-[4. Multi-Screen Apps](https://github.com/KimJoon93/Android-Basics-Nanodegree/tree/4.Multi-Screen-Apps)
+[4. Multi Screen Apps](https://github.com/KimJoon93/Android-Basics-Nanodegree/tree/4.Multi-Screen-Apps)
 
 [5. Networking](https://github.com/KimJoon93/Anroid-Basics-Nanodegree)
