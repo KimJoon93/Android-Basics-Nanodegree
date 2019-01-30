@@ -39,7 +39,7 @@ by Google
     - Health track app (miles or km walked for each day) : array of float
 
 + How to use array
-    - Create Array\
+    - Create array\
     <code>int[] shoesize = new int[3];</code>
     - Initialize elements in an array\
     <code>shoesize[0] = 5;</code>\
@@ -51,7 +51,18 @@ by Google
     <code>shoesize[2]</code> --> value of 11;
     - Get the array length\
     <code>showsize.length</code>--> value of 3;
-
++ How to create and access elements in an ArrayList
+    - Create an ArrayList\
+    ```
+    ArrayList<String> library = new ArrayList<String>();
+    ```
+    - Add elements in an ArrayList
+    ```
+    library.add("Momo");
+    library.add("Momo");
+    //Add an element at a specific index
+    library.add(0, "Momo");
+    ```
 
 ### Java Break: Loops
 ### Quick Guide to Gradle
