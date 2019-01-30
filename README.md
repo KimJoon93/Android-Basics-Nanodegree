@@ -86,14 +86,17 @@ by Google
     ```
     library.size();
     ```
-+ Why don't we use ArrayList instead of array?
++ Why don't we use ArrayList instead of array?\
     Each one has another functions that fits to the program. If we want fixed size such as Weekday,(Monday, tuesday, ...) we can use array.
-    But if we want fluid situation we could use ArrayList.\
+    But if we want fluid situation we could use ArrayList.
 
-    Header 1 | Header 2 | Header3
+      | Array | ArrayList
     --------- | --------- | ---------
-    Content 1 | Content 3 | content5
-    Content 2 | Content 4 | content 6
+    Can change size once created? | No | Yes
+    Is a class? | No | Yes
+    Uses methods to access and modify elements? | No | Yes
+    What can it store? | Primitive and Objects | Only objects
+
 
 ### Java Break: Loops
 ### Quick Guide to Gradle
