@@ -29,6 +29,15 @@ by Google
 
 ### Java Break: Interfaces
 ### Arrays,Lists, Loops, & Custom Classes
+
++ When to use Arrays
+    - Travel App (item to pack for traveling) : array of Strings
+    - YouTube app (number of views) : integer
+    - Setting app (languages supported) : array of Strings
+    - Shopping app (whether a product is in stock) : boolean
+    - Lottery app (winning combination of 5 numbers for a single round in the lottery) : array of integer
+    - Health track app (miles or km walked for each day) : array of float
+    
 ### Java Break: Loops
 ### Quick Guide to Gradle
 ### Project: Musical Structure App
