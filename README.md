@@ -67,10 +67,33 @@ by Google
     - Add elements in an ArrayList
     ```
     library.add("Momo");
-    library.add("Momo");
+    library.add("LaLaLand");
     //Add an element at a specific index
-    library.add(0, "Momo");
+    library.add(0, "quang");
     ```
+    - Access elements in an ArrayList
+    ```
+    library.get(0);
+    library.get(1);
+    library.get(2);
+    ```
+    - Remove elements from an ArrayList
+    ```
+    //Remove the element at the specific index
+    library.remove(2);
+    ```
+    - Get the ArrayList length or size
+    ```
+    library.size();
+    ```
++ Why don't we use ArrayList instead of array?
+    Each one has another functions that fits to the program. If we want fixed size such as Weekday,(Monday, tuesday, ...) we can use array.
+    But if we want fluid situation we could use ArrayList.\
+
+    Header 1 | Header 2 | Header3
+    --------- | --------- | ---------
+    Content 1 | Content 3 | content5
+    Content 2 | Content 4 | content 6
 
 ### Java Break: Loops
 ### Quick Guide to Gradle
