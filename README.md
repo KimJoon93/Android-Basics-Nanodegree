@@ -39,20 +39,28 @@ by Google
     - Health track app (miles or km walked for each day) : array of float
 
 + How to use array
-    - Create array\
-    <code>int[] shoesize = new int[3];</code>
-    - Initialize elements in an array\
-    <code>shoesize[0] = 5;</code>\
-    <code>shoesize[1] = 7;</code>\
-    <code>shoesize[2] = 11;</code>
-    - Access elements in an array\
-    <code>shoesize[0]</code> --> value of 5;\
-    <code>shoesize[1]</code> --> value of 7;\
-    <code>shoesize[2]</code> --> value of 11;
-    - Get the array length\
-    <code>showsize.length</code>--> value of 3;
+    - Create array
+    ```
+    int[] shoesize = new int[3];
+    ```
+    - Initialize elements in an array
+    ```
+    shoesize[0] = 5;
+    shoesize[1] = 7;
+    shoesize[2] = 11;
+    ```
+    - Access elements in an array
+    ```
+    shoesize[0]; --> value of 5
+    shoesize[1]; --> value of 7
+    shoesize[2]; --> value of 11
+    ```
+    - Get the array length
+    ```
+    showsize.length --> value of 3
+    ```
 + How to create and access elements in an ArrayList
-    - Create an ArrayList\
+    - Create an ArrayList
     ```
     ArrayList<String> library = new ArrayList<String>();
     ```
