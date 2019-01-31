@@ -1,6 +1,6 @@
 # Android Basics Nanodegree
 by Google
-## 2018.12.20 ~ 2019.02.01
+## 2018.12.20 ~ 2019.02.07
 
 [1. Welcome to the Nanodegree](https://github.com/KimJoon93/Anroid-Basics-Nanodegree/blob/Welcome-to-the-Nanodegree/README.md)
 
