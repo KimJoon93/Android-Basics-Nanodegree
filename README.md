@@ -105,9 +105,9 @@ by Google
     What can it store? | Primitive and Objects | Only objects
 
 + View Recycling
-    - ListView + Adapter (Memory is limited Source)
-    There are some reason why we use ListView + Adapter. First if we use LinearLayout instead of ListView + Adapter, the memory higly goes up
-    when we use the app.\
+    - ListView + Adapter (Memory is limited Source)\
+    There are some reason why we use ListView + Adapter. If we use LinearLayout instead of ListView + Adapter, the memory higly goes up
+    when we use the app. Memory is limited so we have to make the app work smartly.\
     We can check memories in Tools - Android - Enable ADB(Android Debug Bridge) integration 
 
 ### Java Break: Loops
