@@ -23,22 +23,6 @@
                         android:text="@string/Question1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
-                    <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:src="@color/Blue"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="30dp" />
-                    <ImageView
-                        android:src="@color/Brown"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="30dp" />
-                </LinearLayout>
 
                 <RadioGroup
                     android:orientation="horizontal"
@@ -46,11 +30,27 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/one_blue_radio"
+                        android:gravity="center"
+                        android:text="Pizza"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
                     <RadioButton
+                        android:gravity="center"
+                        android:text="Steak"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/answer1"
+                        android:gravity="center"
+                        android:text="Dog"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:gravity="center"
+                        android:text="Hotdog"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
@@ -65,22 +65,6 @@
                     android:text="@string/Question2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:src="@color/Pink"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="30dp" />
-                    <ImageView
-                        android:src="@color/Green"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="30dp" />
-                </LinearLayout>
 
                 <RadioGroup
                     android:orientation="horizontal"
@@ -88,11 +72,27 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
+                        android:gravity="center"
+                        android:text="Car"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
                     <RadioButton
-                        android:id="@+id/two_green_radio"
+                        android:gravity="center"
+                        android:text="Laptop"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/answer2"
+                        android:gravity="center"
+                        android:text="Note"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:gravity="center"
+                        android:text="T.V"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
@@ -107,22 +107,6 @@
                     android:text="@string/Question3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:src="@color/Yellow"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="30dp" />
-                    <ImageView
-                        android:src="@color/Black"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="30dp" />
-                </LinearLayout>
 
                 <RadioGroup
                     android:orientation="horizontal"
@@ -130,11 +114,27 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/thr_yellow_radio"
+                        android:gravity="center"
+                        android:text="Cat"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
                     <RadioButton
+                        android:gravity="center"
+                        android:text="Lion"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/answer3"
+                        android:gravity="center"
+                        android:text="Socks"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:gravity="center"
+                        android:text="Tiger"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
@@ -149,22 +149,6 @@
                     android:text="@string/Question4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:src="@color/White"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="30dp" />
-                    <ImageView
-                        android:src="@color/Purple"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="30dp" />
-                </LinearLayout>
 
                 <RadioGroup
                     android:orientation="horizontal"
@@ -172,11 +156,27 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
-                        android:id="@+id/fou_white_radio"
+                        android:gravity="center"
+                        android:text="Soccer"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
                     <RadioButton
+                        android:gravity="center"
+                        android:text="Football"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:gravity="center"
+                        android:text="Baseball"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/answer4"
+                        android:gravity="center"
+                        android:text="Ball"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
@@ -190,22 +190,6 @@
                     android:text="@string/Question5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:src="@color/Red"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="30dp" />
-                    <ImageView
-                        android:src="@color/Orange"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="30dp" />
-                </LinearLayout>
 
                 <RadioGroup
                     android:orientation="horizontal"
@@ -213,14 +197,31 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
+                        android:gravity="center"
+                        android:text="Coke"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
                     <RadioButton
-                        android:id="@+id/fiv_orange_radio"
+                        android:gravity="center"
+                        android:text="Sprite"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:gravity="center"
+                        android:text="Water"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/answer5"
+                        android:gravity="center"
+                        android:text="Pizza"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
                 </RadioGroup>
 
                 <CheckBox
