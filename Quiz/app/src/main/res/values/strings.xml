@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Color Quiz</string>
+    <string name="app_name">Quiz</string>
 
     <string name="Question1">1. Which one is not food? (20 Points)</string>
     <string name="Question2">2. Which one is not machine? (20 Points)</string>

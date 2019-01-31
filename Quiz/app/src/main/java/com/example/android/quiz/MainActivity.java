@@ -16,11 +16,11 @@ public class MainActivity extends AppCompatActivity {
 
     LinearLayout scorelayout;
 
-    RadioButton oneblueradio;
-    RadioButton twogreenradio;
-    RadioButton thryellowradio;
-    RadioButton fouwhiteradio;
-    RadioButton fivorangeradio;
+    RadioButton answer1;
+    RadioButton answer2;
+    RadioButton answer3;
+    RadioButton answer4;
+    RadioButton answer5;
 
     CheckBox selfcheck;
 
@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        oneblueradio = (RadioButton)findViewById(R.id.one_blue_radio);
-        twogreenradio = (RadioButton)findViewById(R.id.two_green_radio);
-        thryellowradio = (RadioButton)findViewById(R.id.thr_yellow_radio);
-        fouwhiteradio = (RadioButton)findViewById(R.id.fou_white_radio);
-        fivorangeradio = (RadioButton)findViewById(R.id.fiv_orange_radio);
+        answer1 = (RadioButton)findViewById(R.id.answer1);
+        answer2 = (RadioButton)findViewById(R.id.answer2);
+        answer3 = (RadioButton)findViewById(R.id.answer3);
+        answer4 = (RadioButton)findViewById(R.id.answer4);
+        answer5 = (RadioButton)findViewById(R.id.answer5);
 
         q_one = (TextView) findViewById(R.id.one);
         q_two = (TextView) findViewById(R.id.two);
@@ -63,27 +63,27 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        if(oneblueradio.isChecked()){
+        if(answer1.isChecked()){
             score = score + 20;
             q_one.setText("O");
             q_one.setTextColor(getResources().getColor(R.color.Green));
         }
-        if(twogreenradio.isChecked()){
+        if(answer2.isChecked()){
             score = score + 20;
             q_two.setText("O");
             q_two.setTextColor(getResources().getColor(R.color.Green));
         }
-        if(thryellowradio.isChecked()){
+        if(answer3.isChecked()){
             score = score + 20;
             q_three.setText("O");
             q_three.setTextColor(getResources().getColor(R.color.Green));
         }
-        if(fouwhiteradio.isChecked()){
+        if(answer4.isChecked()){
             score = score + 20;
             q_four.setText("O");
             q_four.setTextColor(getResources().getColor(R.color.Green));
         }
-        if(fivorangeradio.isChecked()){
+        if(answer5.isChecked()){
             score = score + 20;
             q_five.setText("O");
             q_five.setTextColor(getResources().getColor(R.color.Green));
