@@ -104,6 +104,8 @@ by Google
     Uses methods to access and modify elements? | No | Yes
     What can it store? | Primitive and Objects | Only objects
 
++ View Recycling\
+    ListView + Adapter (Memory is limited Source)
 
 ### Java Break: Loops
 ### Quick Guide to Gradle
