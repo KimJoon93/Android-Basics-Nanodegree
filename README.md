@@ -30,4 +30,20 @@ For example We want information num=5 then we should use integer or etc. So we p
 + Another Review from Udacity\
     What they want from me was quiz like Qusetion: Which one is food? 1. Pizza 2. Hamburger 3. Wood. So I just build Quiz app
     again.There were no problems in java or layout but there were problems in quiz.     
+
++ Pass the Review\
+    I did pass the review but there are some recomendation from udacity.\
+    1. Layout is too long. A tip to minimize it's XML layout size is to use the tag include.\
+    [Check here](https://developer.android.com/training/improving-layouts/reusing-layouts)
+    2. Try to use xml string file. 
+    3. Try use Style.xml
+    4. set text size using the dimens.xml file, as follows:
+    ```
+    android:textSize="@dimen/text_size"
+    ```
+    And then, set it in res/values/dimen.xml file as follows:
+    ```
+    <dimen name="text_size">16sp</dimen> 
+    ```
     
+
