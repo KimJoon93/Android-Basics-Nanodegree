@@ -38,7 +38,7 @@ For example We want information num=5 then we should use integer or etc. So we p
     2. Try to use xml string file. 
     3. Try use Style.xml
     4. set text size using the dimens.xml file, as follows:
-     ```
+        ```
         android:textSize="@dimen/text_size"
         ```
         And then, set it in res/values/dimen.xml file as follows:
