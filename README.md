@@ -32,18 +32,18 @@ For example We want information num=5 then we should use integer or etc. So we p
     again.There were no problems in java or layout but there were problems in quiz.     
 
 + Pass the Review\
-    I did pass the review but there are some recomendation from udacity.\
+    I did pass the review but there are some recomendation from udacity.
     1. Layout is too long. A tip to minimize it's XML layout size is to use the tag include.\
-    [Check here](https://developer.android.com/training/improving-layouts/reusing-layouts)
+    [Check here to tag include](https://developer.android.com/training/improving-layouts/reusing-layouts)
     2. Try to use xml string file. 
     3. Try use Style.xml
     4. set text size using the dimens.xml file, as follows:
-    ```
-    android:textSize="@dimen/text_size"
-    ```
-    And then, set it in res/values/dimen.xml file as follows:
-    ```
-    <dimen name="text_size">16sp</dimen> 
-    ```
-    
+     ```
+        android:textSize="@dimen/text_size"
+        ```
+        And then, set it in res/values/dimen.xml file as follows:
+        ```
+        <dimen name="text_size">16sp</dimen> 
+        ```
+
 
