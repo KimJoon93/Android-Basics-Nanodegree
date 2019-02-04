@@ -169,6 +169,7 @@ by Google
     }
     ```
 + Loop counter 
+    
     Instruction | Short-hand | Effect
     --------- | --------- | ---------
     i = i+1; | i++; | 10 -> 11
