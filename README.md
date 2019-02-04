@@ -168,6 +168,15 @@ by Google
     return total;
     }
     ```
++ Loop counter 
+    Instruction | Short-hand | Effect
+    --------- | --------- | ---------
+    i = i+1; | i++; | 10 -> 11
+    i = i-1; | i--; | 10 -> 9
+    i = i+5; | i+=5; | 10 -> 15
+    i = i-6; | i-=6; | 10 -> 4
+    i = i*3; | i*=3; | 10 -> 30
+    i = i/2; | i/=2; | 10 -> 5
 
 ### Quick Guide to Gradle
 
