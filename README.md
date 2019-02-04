@@ -221,6 +221,17 @@ by Google
     }
     ```
     - But there are problem with tie. If max size words are apple and grape than longestName returns the first array.
+
++ 2D arrays
+    ```
+    int total = 0;
+    for(int i = 0; i < 4; i++;){
+        for(int j=0; j<5; j++){
+            total += grades[i][j];
+        }
+    }
+    ```
+    
 ### Quick Guide to Gradle
 
 ### Project: Musical Structure App
