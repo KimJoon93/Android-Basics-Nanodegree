@@ -179,6 +179,16 @@ by Google
     i = i*3; | i*=3; | 10 -> 30
     i = i/2; | i/=2; | 10 -> 5
 
++ Press Conference
+    
+    ```
+    String [] newsOutlet = {"abc","bbc","CNN","CBS","AP","NBC","FOX","npr","sky","MBC"};
+    double lucky = Math.random();
+
+    lucky * 10;
+    int luckyIndex = (int) lucky;
+    system.out.print(newsOutlet[luckyIndex])
+    ```
 ### Quick Guide to Gradle
 
 ### Project: Musical Structure App
