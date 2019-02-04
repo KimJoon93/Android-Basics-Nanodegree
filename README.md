@@ -128,8 +128,27 @@ by Google
         on = checkAlarm();
     }
     ```
-    This basically means that the single while block can replace all those repeat if block until break.    
+    This basically means that the single while block can replace all those repeat if block until break.
 
++ 3 Dice
+    - Wrong Answer
+    ```
+    While(!(dice1== dice2==dice3)){
+        dice1 = rollDice();
+        dice2 = rollDice();
+        dice3 = rollDice();
+        count = count + 1; 
+    }
+    ```
+    - Right Answer
+    ```
+    While(!(dice1 == dice2 && dice2 == dice3)){
+        dice1 = rollDice();
+        dice2 = rollDice();
+        dice3 = rollDice();
+        count = count + 1; 
+    }
+    ```
 ### Quick Guide to Gradle
 
 ### Project: Musical Structure App
