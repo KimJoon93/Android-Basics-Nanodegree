@@ -128,7 +128,8 @@ by Google
         on = checkAlarm();
     }
     ```
-    This basically means that the single while block can replace all those repeat if block until break.
+    This basically means that the single while block can replace all those repeat if block until break.\
+    While loops are really good at repeating things for as long as some condition stays true.
 
 + 3 Dice
     - Wrong Answer
