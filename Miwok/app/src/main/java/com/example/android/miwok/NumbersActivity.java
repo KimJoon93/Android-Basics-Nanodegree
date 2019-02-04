@@ -30,10 +30,9 @@ public class NumbersActivity extends AppCompatActivity {
         words.add(new Word("Nine","wo'e"));
         words.add(new Word("Ten","na'aacha"));
 
-        ArrayAdapter<Word> itemsAdapter = new ArrayAdapter<Word>(this, R.layout.list_item, words);
+        WordAdapter itemsAdapter = new WordAdapter(this, words);
 
         ListView listView = (ListView) findViewById(R.id.list);
-
         listView.setAdapter(itemsAdapter);
     }
 }
