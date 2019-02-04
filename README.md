@@ -220,6 +220,7 @@ by Google
     return longestName;
     }
     ```
+    - But there are problem with tie. If max size words are apple and grape than longestName returns the first array.
 ### Quick Guide to Gradle
 
 ### Project: Musical Structure App
