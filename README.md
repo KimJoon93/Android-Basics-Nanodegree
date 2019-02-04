@@ -110,8 +110,30 @@ by Google
     when we use the app. Memory is limited so we have to make the app work smartly.\
     We can check memories in Tools - Android - Enable ADB(Android Debug Bridge) integration 
 
++ Using ListView
+    - When we want to use ListView. We should learn Adapter.
+    ```
+    ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, words);
+
+    ListView listView = (ListView) findViewById(R.id.list);
+
+    listView.setAdapter(itemsAdapter);
+    ```
+
 ### Java Break: Loops
++ While
+    ```
+    while(on){
+        beep();
+        on = checkAlarm();
+    }
+    ```
+    This basically means that the single while block can replace all those repeat if block until break.    
+
 ### Quick Guide to Gradle
+
 ### Project: Musical Structure App
+
 ### Images and Visual Polish
+
 ### Activity Lifecycle and Audio Playback
