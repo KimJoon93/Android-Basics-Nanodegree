@@ -151,11 +151,11 @@ by Google
     }
     ```
 + Count the block 
-    You need to implement this function public int countBlocks(int levels) that takes the number of levels as an input argument and returns the number of blocks required to build a pyramid made up of that many levels.\
+    - You need to implement this function public int countBlocks(int levels) that takes the number of levels as an input argument and returns the number of blocks required to build a pyramid made up of that many levels.
 
-    Remember that for loops help count up to a certain number (which is the value of levels in this case) and inside the loop, the number of blocks for that level would be the result of multiplying the loop counter by itself (for example i*i)\
+    - Remember that for loops help count up to a certain number (which is the value of levels in this case) and inside the loop, the number of blocks for that level would be the result of multiplying the loop counter by itself (for example i*i)
 
-    This means that if for every level, the number of blocks in that level was added to some variable total then by the end of the loop the total number of blocks needed to build the entire pyramid would be in that total variable and could be returned as the result of that function!\
+    - This means that if for every level, the number of blocks in that level was added to some variable total then by the end of the loop the total number of blocks needed to build the entire pyramid would be in that total variable and could be returned as the result of that function!
     
     ```
     public int countBlocks(int levels){
@@ -166,7 +166,7 @@ by Google
         total = total + (i*i);
     }
     return total;
-}
+    }
     ```
 
 ### Quick Guide to Gradle
