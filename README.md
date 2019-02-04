@@ -189,6 +189,22 @@ by Google
     int luckyIndex = (int) lucky;
     system.out.print(newsOutlet[luckyIndex])
     ```
+
++ Array Search
+    - How do we Search minimal speed in array
+
+    ```
+    public double search(double[] speed){
+        int size = speed.length;
+        double min = speed[0];
+        for(int i=1; i < size; i++){
+            if(speed[i]<min){
+                min = speed[i];
+            }
+        }
+    }
+    ```
+    
 ### Quick Guide to Gradle
 
 ### Project: Musical Structure App
