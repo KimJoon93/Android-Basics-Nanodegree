@@ -235,6 +235,11 @@ by Google
 ### Quick Guide to Gradle
 
 ### Project: Musical Structure App
++ Jtunes structure App
+    - Music List using ListAdapter extends ArrayAdapter
+        I made Music List using ArrayAdapter. I used to make List using BaseAdapter. But this time I tried using ArrayAdapter so I could use Array to the list.
+
++ Review from Udacity
 
 ### Images and Visual Polish
 
