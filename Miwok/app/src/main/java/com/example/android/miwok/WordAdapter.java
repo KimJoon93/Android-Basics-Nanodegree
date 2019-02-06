@@ -21,14 +21,13 @@ public class WordAdapter extends ArrayAdapter<Word> {
         View listItemView = convertView;
 
         if(listItemView==null){
-
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item,parent,false);
         }
         Word currentword = getItem(position);
 
         TextView miwokText = (TextView)listItemView.findViewById(R.id.miwok_textview);
-        miwokText.setText(currentword.getmMiwokTranslation());
         TextView defaulttext = (TextView)listItemView.findViewById(R.id.default_textview);
+        miwokText.setText(currentword.getmMiwokTranslation());
         defaulttext.setText(currentword.getmDefaultTranslation());
 
         return listItemView;
