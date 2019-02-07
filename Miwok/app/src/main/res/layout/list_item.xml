@@ -8,8 +8,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <ImageView
-        android:id="@+id/image"
-        android:src="@mipmap/ic_launcher"
+        android:id="@+id/numberimage"
+        android:src="@drawable/number_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
