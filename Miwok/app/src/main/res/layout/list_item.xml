@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:padding="16dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tan_background"
+    android:minHeight="@dimen/list_item_height"
     xmlns:tools="http://schemas.android.com/tools">
 
     <ImageView
         android:id="@+id/numberimage"
-        android:src="@drawable/number_one"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
 
     <LinearLayout
+        android:background="@color/category_numbers"
         android:id="@+id/textcontainer"
         android:paddingLeft="16dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <TextView
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
             android:id="@+id/miwok_textview"
             tools:text="lutti"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
         <TextView
+            android:gravity="top"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceMedium"
             android:id="@+id/default_textview"
             tools:text="one"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
     </LinearLayout>
 
 </LinearLayout>

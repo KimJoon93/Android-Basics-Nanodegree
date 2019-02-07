@@ -5,6 +5,7 @@ public class Word {
     private String mDefaultTranslation;
     private String mMiwokTranslation;
     private  int mImageResourceId;
+    private static final int NO_IMAGE_PROVIDED = -1;
 
     public Word(String mDefaultTranslation, String mMiwokTranslation, int mImageResourceId) {
         this.mDefaultTranslation = mDefaultTranslation;
@@ -22,5 +23,9 @@ public class Word {
 
     public int getmImageResourceId() {
         return mImageResourceId;
+    }
+
+    public boolean hasImage(){
+        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 }
