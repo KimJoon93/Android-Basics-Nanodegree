@@ -33,43 +33,23 @@
     </ListView>
 
     <LinearLayout
-        android:gravity="center"
-
         android:layout_marginTop="16dp"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
-            android:background="@drawable/ic_list"
-            android:layout_weight="1"
-            android:layout_margin="12dp"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content" />
-        <Button
-            android:layout_weight="1"
-            android:background="@drawable/ic_rewind"
-            android:layout_margin="12dp"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content" />
-        <Button
-            android:layout_weight="1"
-            android:background="@drawable/ic_play_button"
-            android:layout_margin="12dp"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content" />
-        <Button
-            android:layout_weight="1"
-            android:background="@drawable/ic_fast_forward"
-            android:layout_margin="12dp"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content" />
-        <Button
-            android:layout_weight="1"
-            android:background="@drawable/ic_equalizer"
-            android:layout_margin="12dp"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content" />
+      <TextView
+          android:textSize="16sp"
+          android:text="@string/now_playing"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+       <TextView
+           android:id="@+id/nowplaying_songtext"
+           android:layout_marginLeft="16dp"
+           android:text="@string/Nothing"
+           android:textSize="16sp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
 
     </LinearLayout>
 </LinearLayout>

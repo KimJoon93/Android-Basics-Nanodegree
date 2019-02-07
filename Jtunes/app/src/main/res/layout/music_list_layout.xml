@@ -2,48 +2,51 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="8dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.1"
             android:src="@drawable/ic_play_button" />
+
         <LinearLayout
-            android:layout_gravity="center"
-            android:paddingLeft="8dp"
-            android:orientation="vertical"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="8dp">
+
             <TextView
-                android:textStyle="bold"
                 android:id="@+id/song_title_text"
-                tools:text="Listen"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                tools:text="Listen" />
 
             <TextView
                 android:id="@+id/song_singer_text"
-                tools:text="Jeyonce"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:text="Jeyonce" />
 
         </LinearLayout>
 
         <Button
-            android:layout_weight="0.1"
-            android:layout_margin="10dp"
-            android:background="@drawable/ic_more"
+            android:focusable="false"
             android:layout_width="0dp"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.03"
+            android:background="@drawable/ic_more" />
     </LinearLayout>
 
 </LinearLayout>
