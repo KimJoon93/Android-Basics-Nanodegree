@@ -245,5 +245,8 @@ by Google
 + Review from Udacity
 
 ### Images and Visual Polish
++ Why are there different drawable folders?
+    Each folders represents a different resolution device. - medium density device, high density device, etc up to extra-extra high density devices.
+     
 
 ### Activity Lifecycle and Audio Playback
