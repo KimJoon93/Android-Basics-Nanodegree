@@ -245,6 +245,17 @@ by Google
 + Review from Udacity
     - 2 SPECIFICATIONS REQUIRE CHANGES
         All activities should be labeled. And Should use android:parentActivityName=".TheNameOfTheParentActivity” to show back button. 
+
++ Succeed to pass the review
+    - There are some sugestion from Udacity
+        - Don't need to create another View object, you could use convertViewdirectly as follows:  
+          if(convertView == null){
+        - Can implement the ViewHolder pattern in my adapter
+          When my code calls findViewByid() frequently during the ListView scrolling, this will cause to slow down its performance.
+          Creating a ViewHolder provides that the objects will only be instantiated once, since every time we call thegetView() method, the ViewHolder created in the first call will be reused.
+        - Try use styles to make code short.
+        - When naming a class in Java, we generally write them in UpperCamelCase and give them the "component type" as a suffix. This way it would be:
+          PlayingScreenActivity                
 ### Images and Visual Polish
 + Why are there different drawable folders?
     Each folders represents a different resolution device. - medium density device, high density device, etc up to extra-extra high density devices.
