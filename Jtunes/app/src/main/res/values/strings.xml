@@ -4,4 +4,6 @@
     <string name="now_playing">Now Playing: </string>
     <string name="Nothing">Nothing yet</string>
     <string name="Notplaying">Not Playing</string>
+    <string name="SongList">SongList</string>
+    <string name="Nowplaying">Now Playing</string>
 </resources>

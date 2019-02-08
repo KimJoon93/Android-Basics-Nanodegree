@@ -243,7 +243,8 @@ by Google
 
         There were some problems when I use ListView. I try to use onItemOnclicklistener to send info by intent but it doesn't work. So I used Log.d to find out 'Does the app goes into the onItemclickListener?'. I found it doesn't get into the onitemclickListener. So I google the info about onItemClicklistener and I found someone who has same problem with me. And I found if listview layout has button or imagebutton click doesn't work so we should erase or make focusable to false. 
 + Review from Udacity
-
+    - 2 SPECIFICATIONS REQUIRE CHANGES
+        All activities should be labeled. And Should use android:parentActivityName=".TheNameOfTheParentActivity” to show back button. 
 ### Images and Visual Polish
 + Why are there different drawable folders?
     Each folders represents a different resolution device. - medium density device, high density device, etc up to extra-extra high density devices.
