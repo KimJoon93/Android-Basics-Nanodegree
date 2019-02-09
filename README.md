@@ -273,7 +273,9 @@ by Google
           PlayingScreenActivity                
 ### Images and Visual Polish
 + Why are there different drawable folders?
-    Each folders represents a different resolution device. - medium density device, high density device, etc up to extra-extra high density devices.
-     
+    Each folders represents a different resolution device. - medium density device, high density device, etc up to extra-extra high density devices.     
 
 ### Activity Lifecycle and Audio Playback
+### Practice Set: Activity Lifecycle and Audio Playback
+### Fragments
+### Project: Tour Guide App
