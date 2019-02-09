@@ -233,7 +233,22 @@ by Google
     ```
     
 ### Quick Guide to Gradle
++ What is Gradle?
+    - Google decided rather than re-writing an entirely new tool to do all of this, it would be better to just leverage an existing build tool called Gradle. The files    built in Gradle are written using a Domain Specific Language (DSL) called Groovy).
+    
+    - Project & Module
 
+         Project in Android Studio represents a complete Android app - all the source code and assets needed to test code and build configurations. An Android Studio project consist of one or more Modules.
+
+        A Module provides a container for your app's source code, resource files, and app level settings, such as the module-level build file and Android manifest file. Each module can be independently built, tested, and debugged. Android Studio uses modules to make it easy for your project to be available on different devices
+
+        Module level gradle build allows you to configure build settings for the specific module it is located in. 
+
+    - Build Types
+
+        Android will automatically build a debug and release version for any application. The biggest difference between the two is how the APK is signed - the debug version is signed with an auto-generated key + certificate so it can be built on the spot while the release version is not signed during the build, therefore a release key + certificate need to be created and signing happens after the build.    
+
+    
 ### Project: Musical Structure App
 + Jtunes structure App
     - Music List using ListAdapter extends ArrayAdapter
