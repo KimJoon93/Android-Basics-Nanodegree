@@ -294,7 +294,9 @@ by Google
             
         });
         ```
-
++ Activity Lifecycle
++ Audio Focus State
++ Audio Icon
 ### Practice Set: Activity Lifecycle and Audio Playback
 ### Fragments
 ### Project: Tour Guide App
