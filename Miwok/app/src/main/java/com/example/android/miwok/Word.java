@@ -11,6 +11,11 @@ public class Word {
     public int getmAudioResourceId() {
         return mAudioResourceId;
     }
+    public Word(String defaultTranslation, String miwokTranslation, int audioResourceId) {
+        mDefaultTranslation = defaultTranslation;
+        mMiwokTranslation = miwokTranslation;
+        mAudioResourceId = audioResourceId;
+    }
 
     public Word(String mDefaultTranslation, String mMiwokTranslation, int mImageResourceId, int mAudioResourceId) {
         this.mDefaultTranslation = mDefaultTranslation;
