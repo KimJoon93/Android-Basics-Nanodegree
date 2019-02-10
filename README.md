@@ -276,6 +276,25 @@ by Google
     Each folders represents a different resolution device. - medium density device, high density device, etc up to extra-extra high density devices.     
 
 ### Activity Lifecycle and Audio Playback
++ Media Player States
+    - Idle > Prepared > Started > Paused > Started > Stopped > Prepared> Started > ...
+      [Link](https://developer.android.com/reference/android/media/MediaPlayer)
+
+    - How to use Media Player
+      ```
+      MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.song);
+      mediaPlayer.start();
+      mediaPlayer.pause();
+
+      ```
+    - Completion
+        When the music ends we should info the music is finished. So We use onCompletion() method.
+        ```
+        mediaPlayer.onCompletionListener(new MediaPlayer.onCompletionlistener(){
+            
+        });
+        ```
+
 ### Practice Set: Activity Lifecycle and Audio Playback
 ### Fragments
 ### Project: Tour Guide App
