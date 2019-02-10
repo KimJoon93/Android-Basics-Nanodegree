@@ -6,11 +6,17 @@ public class Word {
     private String mMiwokTranslation;
     private  int mImageResourceId;
     private static final int NO_IMAGE_PROVIDED = -1;
+    private int mAudioResourceId;
 
-    public Word(String mDefaultTranslation, String mMiwokTranslation, int mImageResourceId) {
+    public int getmAudioResourceId() {
+        return mAudioResourceId;
+    }
+
+    public Word(String mDefaultTranslation, String mMiwokTranslation, int mImageResourceId, int mAudioResourceId) {
         this.mDefaultTranslation = mDefaultTranslation;
         this.mMiwokTranslation = mMiwokTranslation;
         this.mImageResourceId = mImageResourceId;
+        this.mAudioResourceId = mAudioResourceId;
     }
 
     public String getmDefaultTranslation(){
