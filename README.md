@@ -299,4 +299,26 @@ by Google
 + Audio Icon
 ### Practice Set: Activity Lifecycle and Audio Playback
 ### Fragments
++ Add Up Button
+    ```
+    <application ... >
+    ...
+    <!-- The main/home activity (it has no parent activity) -->
+    <activity
+        android:name="com.example.myfirstapp.MainActivity" ...>
+        ...
+    </activity>
+    <!-- A child of the main activity -->
+    <activity
+        android:name="com.example.myfirstapp.DisplayMessageActivity"
+        android:label="@string/title_activity_display_message"
+        android:parentActivityName="com.example.myfirstapp.MainActivity" >
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+    </activity>
+    </application>
+    ```
+    
 ### Project: Tour Guide App
