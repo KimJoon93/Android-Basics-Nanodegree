@@ -8,7 +8,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class ViewpagerAdapter extends FragmentPagerAdapter {
 
-    private String tabTitles[] = new String[]{"tab1","tab2","tab3"};
+    private int PAGE_COUNT = 5;
+    private String tabTitles[] = new String[]{"Seoul News","Enjoy","Map","Open Source","Info"};
     private Context context;
 
     public ViewpagerAdapter(FragmentManager fm, Context context) {
@@ -21,6 +22,10 @@ public class ViewpagerAdapter extends FragmentPagerAdapter {
         if(i==0){
             return new Seoul_News_Page();
         }else if(i==1){
+            return new Enjoy_Page();
+        }else if(i==2){
+            return new Map_Page();
+        }else if(i==3){
             return new Seoul_News_Page();
         }else{
             return new Seoul_News_Page();
@@ -29,7 +34,7 @@ public class ViewpagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return PAGE_COUNT;
     }
 
     @Nullable
