@@ -1,10 +1,15 @@
 package com.example.android.seoultourguide;
 
+import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
 public class ListAdapter extends BaseAdapter {
+    Context context;
+    LayoutInflater layoutInflater;
+
     @Override
     public int getCount() {
         return 0;
