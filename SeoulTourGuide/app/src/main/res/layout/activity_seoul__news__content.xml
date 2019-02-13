@@ -24,13 +24,13 @@
             android:textStyle="bold"
             android:textSize="24sp"
             android:gravity="center"
-            android:text="Title"
+            android:text="@string/Title"
             android:id="@+id/content_titletext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:text="Content"
+            android:text="@string/Content"
             android:textSize="14sp"
             android:id="@+id/content_bodytext"
             android:layout_width="wrap_content"

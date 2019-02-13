@@ -28,7 +28,6 @@ public class ListAdapter extends ArrayAdapter<ListData> {
         TextView seoulNewsBody = convertView.findViewById(R.id.seoulBody);
 
         ListData currentNews = getItem(position);
-        seoulNewsImage.setBackgroundResource(currentNews.getImageId());
         seoulNewsTitle.setText(currentNews.getTitle());
 
         if(currentNews.hasBody()){
@@ -36,6 +35,13 @@ public class ListAdapter extends ArrayAdapter<ListData> {
             seoulNewsBody.setVisibility(View.VISIBLE);
         }else{
             seoulNewsBody.setVisibility(View.GONE);
+        }
+
+        if(currentNews.hasimg()){
+            seoulNewsImage.setBackgroundResource(currentNews.getImageId());
+            seoulNewsImage.setVisibility(View.VISIBLE);
+        }else{
+            seoulNewsImage.setVisibility(View.GONE);
         }
 
         return convertView;

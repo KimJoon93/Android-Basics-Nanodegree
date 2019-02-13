@@ -4,9 +4,9 @@
     <string name="SeoulNews">Seoul News</string>
     <string name="Enjoy">ENJOY</string>
     <string name="Map">MAP</string>
-    <string name="OpenSource">OPEN SOURCE</string>
     <string name="INFO">INFO</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Title">Title</string>
+    <string name="Body">Body</string>
+    <string name="Content">Content</string>
 </resources>

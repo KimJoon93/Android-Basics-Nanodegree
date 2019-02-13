@@ -19,7 +19,9 @@
         <activity
             android:name=".Seoul_News_Content"
             android:parentActivityName=".Seoul_News_Content" />
-        <activity android:name=".Enjoy_Content"></activity>
+        <activity
+            android:name=".Enjoy_Content"
+            android:parentActivityName=".Enjoy_Content"></activity>
     </application>
 
 </manifest>

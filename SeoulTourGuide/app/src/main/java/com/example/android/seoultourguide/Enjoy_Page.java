@@ -1,5 +1,6 @@
 package com.example.android.seoultourguide;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -40,7 +41,10 @@ public class Enjoy_Page extends Fragment {
         enjoylist.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
+                Intent intent = new Intent(getContext(),Enjoy_Content.class);
+                intent.putExtra("enjoy_Title",enjoyLists.get(i).getTitle());
+                intent.putExtra("enjoy_imgid",enjoyLists.get(i).getImageId());
+                startActivity(intent);
             }
         });
         return view;
