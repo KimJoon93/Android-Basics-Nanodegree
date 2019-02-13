@@ -4,49 +4,40 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class ListAdapter extends BaseAdapter {
-    Context context;
-    LayoutInflater layoutInflater;
 
-    public ListAdapter(Context context, ArrayList<NewsList> newsLists) {
-        this.context = context;
+public class ListAdapter extends ArrayAdapter<ListData> {
+
+    public ListAdapter(Context context, ArrayList<ListData> listData) {
+        super(context, 0, listData);
     }
 
     @Override
-    public int getCount() {
-        return ;
-    }
+    public View getView(int position, View convertView, ViewGroup parent) {
 
-    @Override
-    public Object getItem(int i) {
-        return ;
-    }
-
-    @Override
-    public long getItemId(int i) {
-        return 0;
-    }
-
-    @Override
-    public View getView(int i, View view, ViewGroup viewGroup) {
-        if(view == null){
-            view = LayoutInflater.from(context).inflate(R.layout.news_list_layout,viewGroup,false);
+        if(convertView == null){
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_layout,parent,false);
         }
-        ImageView seoulNewsImage = view.findViewById(R.id.seoulNewsListImg);
-        TextView seoulNewsTitle = view.findViewById(R.id.seoulNewsTitle);
-        TextView seoulNewsBody = view.findViewById(R.id.seoulNewsBody);
+        ImageView seoulNewsImage = convertView.findViewById(R.id.seoulListImg);
+        TextView seoulNewsTitle = convertView.findViewById(R.id.seoulTitle);
+        TextView seoulNewsBody = convertView.findViewById(R.id.seoulBody);
 
-        NewsList currentNews = getItem(i);
+        ListData currentNews = getItem(position);
+        seoulNewsImage.setBackgroundResource(currentNews.getImageId());
+        seoulNewsTitle.setText(currentNews.getTitle());
 
-        seoulNewsTitle.setText(currentNews.getNewsTitle());
-        seoulNewsBody.setText(currentNews.getNewsBody());
+        if(currentNews.hasBody()){
+            seoulNewsBody.setText(currentNews.getBody());
+            seoulNewsBody.setVisibility(View.VISIBLE);
+        }else{
+            seoulNewsBody.setVisibility(View.GONE);
+        }
 
-        return view;
+        return convertView;
     }
 }

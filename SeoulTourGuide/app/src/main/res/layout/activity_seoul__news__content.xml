@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seoul_News_Content">
+
+    <ImageView
+        android:id="@+id/content_imgid"
+        android:layout_weight="0.5"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Title"
+            android:id="@+id/content_titletext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Content"
+            android:textSize="14sp"
+            android:id="@+id/content_bodytext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
