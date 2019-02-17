@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.TextView;
 
 public class InfoAdapter extends ArrayAdapter {
     public InfoAdapter(Context context, int resource) {
@@ -16,6 +17,9 @@ public class InfoAdapter extends ArrayAdapter {
         if(convertView == null){
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.info_layout,parent,false);
         }
+        TextView infoTitle = convertView.findViewById(R.id.info_title);
+        TextView infoContext = convertView.findViewById(R.id.info_context);
+        
 
         return convertView;
     }
