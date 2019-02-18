@@ -33,7 +33,7 @@ public class Info_Page extends Fragment {
         View view = inflater.inflate(R.layout.fragment_info__page, container, false);
 
         ListView infolist = (ListView)view.findViewById(R.id.infolist);
-        ListAdapter listAdapter = new ListAdapter(getContext(), infoLists);
+        InfoAdapter infoAdapter = new InfoAdapter(getContext(), infoLists);
         infolist.setAdapter(listAdapter);
 
         return view;

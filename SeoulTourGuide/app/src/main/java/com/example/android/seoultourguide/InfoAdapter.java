@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 public class InfoAdapter extends ArrayAdapter {
-    public InfoAdapter(Context context, int resource) {
+    public InfoAdapter(Context context, ArrayAdapter<> listData) {
         super(context, resource);
     }
 
@@ -19,7 +19,7 @@ public class InfoAdapter extends ArrayAdapter {
         }
         TextView infoTitle = convertView.findViewById(R.id.info_title);
         TextView infoContext = convertView.findViewById(R.id.info_context);
-        
+
 
         return convertView;
     }
