@@ -9,4 +9,10 @@
     <string name="Title">Title</string>
     <string name="Body">Body</string>
     <string name="Content">Content</string>
+
+    <string name="aboutplace">About Place: </string>
+    <string name="placenumber">Number: </string>
+    <string name="placeAdress">Address: </string>
+    Address:
+
 </resources>

@@ -44,6 +44,7 @@ public class Enjoy_Page extends Fragment {
                 Intent intent = new Intent(getContext(),Enjoy_Content.class);
                 intent.putExtra("enjoy_Title",enjoyLists.get(i).getTitle());
                 intent.putExtra("enjoy_imgid",enjoyLists.get(i).getImageId());
+                intent.putExtra("geti",i);
                 startActivity(intent);
             }
         });
