@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Mon Feb 11 20:20:27 KST 2019
-0.baseType=DIRECTORY
-0.base=C\:\\Users\\Joon\\Desktop\\Android-Basics-Nanodegree\\SeoulTourGuide\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-0.path=classes.dex
-0.set=DEX
-count=1
