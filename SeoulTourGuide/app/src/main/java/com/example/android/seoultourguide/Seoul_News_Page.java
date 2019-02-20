@@ -28,11 +28,11 @@ public class Seoul_News_Page extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         final ArrayList<ListData> newsLists = new ArrayList<>();
-        newsLists.add(new ListData("Seoul Trip in cold waves and fine dust","Content",R.drawable.seoul));
-        newsLists.add(new ListData("Seoul Cafe trip","Content",R.drawable.seoul2));
-        newsLists.add(new ListData("Starting point of Seoul","Content",R.drawable.seoul));
-        newsLists.add(new ListData("Hot spots in Seoul","Content",R.drawable.seoul2));
-        newsLists.add(new ListData("Starting point of Seoul","Content",R.drawable.seoul));
+        newsLists.add(new ListData("Seoul Trip in cold waves and fine dust","Content",R.mipmap.seoul));
+        newsLists.add(new ListData("Seoul Cafe trip","Content",R.mipmap.seoul));
+        newsLists.add(new ListData("Starting point of Seoul","Content",R.mipmap.seoul));
+        newsLists.add(new ListData("Hot spots in Seoul","Content",R.mipmap.seoul));
+        newsLists.add(new ListData("Starting point of Seoul","Content",R.mipmap.seoul));
 
         View view = inflater.inflate(R.layout.fragment_seoul__news__page, container, false);
 

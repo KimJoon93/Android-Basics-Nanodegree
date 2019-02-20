@@ -3,7 +3,7 @@
 
     <string name="SeoulNews">Seoul News</string>
     <string name="Enjoy">ENJOY</string>
-    <string name="Map">MAP</string>
+    <string name="Hotel">HOTEL</string>
     <string name="INFO">INFO</string>
 
     <string name="Title">Title</string>
@@ -13,6 +13,6 @@
     <string name="aboutplace">About Place: </string>
     <string name="placenumber">Number: </string>
     <string name="placeAdress">Address: </string>
-    Address:
 
+    <string name="Temperature">-1℃</string>
 </resources>

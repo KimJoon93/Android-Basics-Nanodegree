@@ -26,11 +26,11 @@ public class Enjoy_Page extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         final ArrayList<ListData> enjoyLists = new ArrayList<>();
-        enjoyLists.add(new ListData("SeoulTower",R.drawable.seoul));
-        enjoyLists.add(new ListData("Lotte World",R.drawable.seoul));
-        enjoyLists.add(new ListData("Olympic Park",R.drawable.seoul));
-        enjoyLists.add(new ListData("63 Building",R.drawable.seoul));
-        enjoyLists.add(new ListData("Seoul Square",R.drawable.seoul));
+        enjoyLists.add(new ListData("SeoulTower",R.mipmap.seoul));
+        enjoyLists.add(new ListData("Lotte World",R.mipmap.seoul));
+        enjoyLists.add(new ListData("Olympic Park",R.mipmap.seoul));
+        enjoyLists.add(new ListData("63 Building",R.mipmap.seoul));
+        enjoyLists.add(new ListData("Seoul Square",R.mipmap.seoul));
 
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_enjoy__page, container, false);

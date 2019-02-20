@@ -7,8 +7,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class ViewpagerAdapter extends FragmentPagerAdapter {
 
-    private int PAGE_COUNT = 3;
-    private String tabTitles[] = new String[]{"Seoul News","Enjoy","Info"};
+    private int PAGE_COUNT = 4;
+    private String tabTitles[] = new String[]{"Seoul News","Enjoy","Hotel","Info"};
     private Context context;
 
     public ViewpagerAdapter(FragmentManager fm, Context context) {
@@ -22,6 +22,8 @@ public class ViewpagerAdapter extends FragmentPagerAdapter {
             return new Seoul_News_Page();
         }else if(i==1){
             return new Enjoy_Page();
+        }else if(i ==2){
+            return new HotelInfo_Page();
         }else{
             return new Info_Page();
         }
