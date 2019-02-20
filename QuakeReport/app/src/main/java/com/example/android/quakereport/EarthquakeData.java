@@ -3,12 +3,12 @@ package com.example.android.quakereport;
 public class EarthquakeData {
     private String mMagnitude;
     private String mLocation;
-    private String mDate;
+    private long mTimeInMilliseconds;
 
-    public EarthquakeData(String mMagnitude, String mLocation, String mDate) {
+    public EarthquakeData(String mMagnitude, String mLocation, long mTimeInMilliseconds) {
         this.mMagnitude = mMagnitude;
         this.mLocation = mLocation;
-        this.mDate = mDate;
+        this.mTimeInMilliseconds = mTimeInMilliseconds;
     }
 
     public String getmMagnitude() {
@@ -19,7 +19,7 @@ public class EarthquakeData {
         return mLocation;
     }
 
-    public String getmDate() {
-        return mDate;
+    public long getmTimeInMilliseconds() {
+        return mTimeInMilliseconds;
     }
 }

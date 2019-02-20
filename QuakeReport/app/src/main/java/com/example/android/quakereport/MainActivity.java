@@ -13,10 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArrayList<EarthquakeData> earthquakeData = new ArrayList<>();
-        earthquakeData.add(new EarthquakeData("fsdfsd","sdfdsfsd","fsdfsdfsdf"));
-        earthquakeData.add(new EarthquakeData("fsdfsd","sdfdsfsd","fsdfsdfsdf"));
-        earthquakeData.add(new EarthquakeData("fsdfsd","sdfdsfsd","fsdfsdfsdf"));
+        ArrayList<EarthquakeData> earthquakeData = QueryUtils.extraEarthquakes();
 
         ListView earthlist = findViewById(R.id.earthlist);
         ListAdapter earthlistadapter = new ListAdapter(this, earthquakeData);
